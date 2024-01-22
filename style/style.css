@@ -139,6 +139,8 @@ button:active{
         text-align: right;
         border-radius: 0;
         grid-area: screen;
+        align-items: center;
+        align-content: center;
     }
     button{
         height: 15.5vh;
