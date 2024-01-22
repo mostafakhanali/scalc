@@ -134,8 +134,8 @@ button:active{
     .screen{
         background: #333;
         color: #fefefe;
-        height: 20vh;
-        padding: 2.5vh 20px;
+        height: 10vh;
+        padding: 10vh 20px;
         text-align: right;
         border-radius: 0;
         grid-area: screen;
