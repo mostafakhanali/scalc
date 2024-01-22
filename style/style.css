@@ -9,7 +9,7 @@ body {
     border: none;
     margin-top: 50px;
     border-radius: 10px;
-    font-family: monospace;
+    font-family: 'Courier New', Courier, monospace;
     font-weight: 800;
     font-size: 30px;
 }
@@ -52,8 +52,14 @@ button:active {
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
     grid-area: screen;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
 }
-
+.screen::-webkit-scrollbar{
+    display: none;
+}
 .clean {
     grid-area: clean;
 }
@@ -151,7 +157,7 @@ button:active {
     .screen {
         background: #333;
         color: #fefefe;
-        height: 5vh;
+        height: 10vh;
         padding: 5vh 20px;
         text-align: right;
         border-radius: 0;
@@ -174,3 +180,4 @@ button:active {
         border-radius: 0;
     }
 }
+
