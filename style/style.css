@@ -36,11 +36,11 @@ button:active {
 }
 
 .operation {
-    background: #df974c;
+    background: #ff9f0a;
 }
 
 .operation:active {
-    background: #f0af6a;
+    background: rgb(255, 191, 95);
 }
 
 .screen {
